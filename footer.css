@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background: #363636;
+    color: #fff;
+    height: 70px;
+    font-size: 1.05rem;
+}
+
+.footer p i{
+    margin-right: 10px;
+}
+
+.design{
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:455px){
+    .footer{
+        font-size: 0.9rem;
+    }
+    .design{
+        font-size: 0.65rem;
+    }
+}
+@media screen and (max-width:385px){
+    .footer{
+        font-size: 0.8rem;
+    }
+    .design{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:340px){
+    .footer{
+        font-size: 0.6rem;
+    }
+    .design{
+        font-size: 0.4rem;
+    }
+}
